@@ -5,7 +5,7 @@ class CreateBanco{
    
     public function create_tabela()
     {
-        $tabela = "CREATE TABLE `banco_teste`.`vendas` (
+        $tabela = "CREATE TABLE `loja`.`vendas` (
                   `id_` INT(11) NOT NULL AUTO_INCREMENT,
                   `id_loja` INT(11) NULL,
                   `cnpj` INT(11) NULL,
